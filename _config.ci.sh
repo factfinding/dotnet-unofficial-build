@@ -19,7 +19,7 @@ fi
 DOTNET_VMR_CHECKED_OUT=false
 DOTNET_VMR_CHECKOUT="/vmr"
 DOTNET_VMR_BRANCH="v9.0.101+loong.20241205"
-DOTNET_VMR_REPO=https://github.com/loongson-community/dotnet.git
+DOTNET_VMR_REPO=https://github.com/factfinding/dotnet.git
 
 ROOTFS_GLIBC_IMAGE_TAG="$(cat "$(dirname "${BASH_SOURCE[0]}")"/rootfs-glibc-image-tag.txt)"
 ROOTFS_MUSL_IMAGE_TAG="$(cat "$(dirname "${BASH_SOURCE[0]}")"/rootfs-musl-image-tag.txt)"
