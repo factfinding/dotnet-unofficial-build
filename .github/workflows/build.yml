@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     name: Build .NET for LoongArch64
-    runs-on: ubuntu-latest  # ubuntu-latest is too small for the build to finish in 6hr
+    runs-on: self-hosted  # ubuntu-latest is too small for the build to finish in 6hr
     outputs:
       run_id: ${{ github.run_id }}
     container:
